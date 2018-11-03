@@ -1,0 +1,22 @@
+{
+  "name": "homework11",
+  "version": "1.0.0",
+  "description": "npm json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmihalsky/homework11.git"
+  },
+  "author": "Jeff Mihalsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmihalsky/homework11/issues"
+  },
+  "homepage": "https://github.com/jmihalsky/homework11#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
