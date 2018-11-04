@@ -17,7 +17,6 @@ function Word(word_cmp){
             }
             this.word_ltr_arry.push(Letter);
         }
-    console.log(this.word_ltr_arry);
     };
     this.wrd_dsp_arry = function(){
         this.wrd_ltr_dsp_arry = [];
@@ -40,7 +39,6 @@ function Word(word_cmp){
         console.log(this.wrd_ltr_dsp_arry.join(" "));
     };
     this.letterCheck = function(guess_ltr){
-        console.log(guess_ltr);
         if(this.ltr_guesses.indexOf(guess_ltr) < 0)
         {
             var hid_ltrs = 0;

@@ -7,6 +7,9 @@ var inquirer = require("inquirer");
 var LTRS = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 var words = ['PITTSBURGH','SACRAMENTO','SEATTLE','LOS ANGLES','CHICAGO','AUSTIN','PHOENIX','RENO','OAKLAND','SAN FRANCISCO','BALTIMORE','SALT LAKE CITY','ALBUQUERQUE','DENVER','HOUSTON','ATLANTA','NEW YORK CITY','BOSTON','MINNEAPOLIS'];
 
+var wins = 0;
+var losses = 0;
+
 var newWord;
 
 function start_game(){
